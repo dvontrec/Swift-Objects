@@ -14,11 +14,5 @@ let myCar = Car()
 // creates a default car
 let richCar = Car(customerChosenColor: "Gold")
 
-// prints the cars info
-print(myCar.color)
-print(myCar.numberOfSeats)
-print(myCar.typeOfCar)
-
-print(richCar.color)
-print(richCar.numberOfSeats)
-print(richCar.typeOfCar)
+// Calls the cars drive method
+myCar.drive()

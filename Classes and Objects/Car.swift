@@ -34,5 +34,10 @@ class Car{
         color = customerChosenColor
     }
     
+    //Cretes a drive method
+    func drive(){
+        print("Car is moving")
+    }
+    
     
 }
