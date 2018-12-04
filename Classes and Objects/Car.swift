@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Car.swift
 //  Classes and Objects
 //
 //  Created by Dvontre Coleman  on 12/4/18.
@@ -8,4 +8,7 @@
 
 import Foundation
 
-
+//  basics of the car class
+class Car{
+    
+}
