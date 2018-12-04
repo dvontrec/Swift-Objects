@@ -24,5 +24,11 @@ class Car{
     var numberOfSeats : Int = 5
     var typeOfCar : CarType = .Coupe
     
+    // creates custom car initializer
+    init(customerChosenColor : String) {
+        // Creates a new car and sets the color to the customer chosen color
+        self.color = customerChosenColor
+    }
+    
     
 }

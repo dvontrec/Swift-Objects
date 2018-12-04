@@ -9,7 +9,7 @@
 import Foundation
 
 // Creates a new constant car object
-let myCar = Car()
+let myCar = Car(customerChosenColor: "Burgundy")
 
 // prints the cars info
 print(myCar.color)
