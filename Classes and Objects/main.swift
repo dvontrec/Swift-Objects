@@ -14,5 +14,8 @@ let myCar = Car()
 // creates a default car
 let richCar = Car(customerChosenColor: "Gold")
 
+// creates a self driving car
+let futureCar = SelfDrivingCar(customerChosenColor: "blue")
+
 // Calls the cars drive method
 myCar.drive()
