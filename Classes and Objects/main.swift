@@ -16,6 +16,8 @@ let richCar = Car(customerChosenColor: "Gold")
 
 // creates a self driving car
 let futureCar = SelfDrivingCar(customerChosenColor: "blue")
+// gives futureCar a destination
+futureCar.destination = "1 hacker way"
 
 // Calls the cars drive method
-myCar.drive()
+futureCar.drive()

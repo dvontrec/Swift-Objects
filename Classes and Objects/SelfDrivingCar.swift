@@ -9,20 +9,22 @@
 import Foundation
 
 class SelfDrivingCar : Car {
-    
-    var destination : String = "1 infinite loop"
+    // Creates a property for the destination that can be nil (optional)
+    var destination : String?
     
     // Overrides the drive function
     override func drive() {
         super.drive()
-        print("Driving to " + destination)
+        // if the destination is not nil optional binding
+        if let userSetDestination = destination {
+            // Exclamation mark definitly guarantees the destination is not nill here
+            print("Driving to " + userSetDestination)
+        }
     }
     
     // Overriden init does basic car init plus custom init functions
     override init() {
         // inharites the init method
         super.init()
-        // Drives on init
-        self.drive()
     }
 }
