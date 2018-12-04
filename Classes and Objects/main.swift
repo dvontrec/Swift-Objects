@@ -8,4 +8,10 @@
 
 import Foundation
 
+// Creates a new constant car object
+let myCar = Car()
 
+// prints the cars info
+print(myCar.color)
+print(myCar.numberOfSeats)
+print(myCar.typeOfCar)
