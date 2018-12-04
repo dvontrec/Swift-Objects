@@ -8,7 +8,21 @@
 
 import Foundation
 
+// Creates a new dataType for car types
+enum CarType{
+    case Sedan
+    case Coupe
+    case Hatchback
+}
+
 //  basics of the car class
 class Car{
+    
+    // Creates properties for the car class
+    // all cars are the color black
+    var color : String = "Black"
+    var numberOfSeats : Int = 5
+    var typeOfCar : CarType = .Coupe
+    
     
 }
